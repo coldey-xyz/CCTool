@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/github/CCTool/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE -D__WXMSW__ @CMakeFiles\\CCTool.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CCTool.dir\\src\\main.cpp.obj -c C:\\github\\CCTool\\src\\main.cpp",
+  "file": "C:/github/CCTool/src/main.cpp",
+  "output": "CMakeFiles/CCTool.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/github/CCTool/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE -D__WXMSW__ @CMakeFiles\\CCTool.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CCTool.dir\\src\\MainFrame.cpp.obj -c C:\\github\\CCTool\\src\\MainFrame.cpp",
+  "file": "C:/github/CCTool/src/MainFrame.cpp",
+  "output": "CMakeFiles/CCTool.dir/src/MainFrame.cpp.obj"
+},
+{
+  "directory": "C:/github/CCTool/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE -D__WXMSW__ @CMakeFiles\\CCTool.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CCTool.dir\\src\\ImageProcessor.cpp.obj -c C:\\github\\CCTool\\src\\ImageProcessor.cpp",
+  "file": "C:/github/CCTool/src/ImageProcessor.cpp",
+  "output": "CMakeFiles/CCTool.dir/src/ImageProcessor.cpp.obj"
+}
+]

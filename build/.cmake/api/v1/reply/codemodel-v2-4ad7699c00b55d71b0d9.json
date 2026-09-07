@@ -1,0 +1,411 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::OpenSSL_Crypto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__OpenSSL_Crypto-Debug-30a96774275dbb62ea87.json",
+					"name" : "CURL::OpenSSL_Crypto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::ZLIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__ZLIB-Debug-f7aeb9d2b7e2570743aa.json",
+					"name" : "CURL::ZLIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::brotli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__brotli-Debug-36bcb638f2a2ebaecaae.json",
+					"name" : "CURL::brotli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::curl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__curl-Debug-08c81b006c791c529df0.json",
+					"name" : "CURL::curl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::libcurl_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__libcurl_shared-Debug-771cc82bc88b9c1f52f1.json",
+					"name" : "CURL::libcurl_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::libidn2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__libidn2-Debug-254dfac62623a41b845b.json",
+					"name" : "CURL::libidn2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::libpsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__libpsl-Debug-1f54cc372ba33d45ba2b.json",
+					"name" : "CURL::libpsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::libssh2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__libssh2-Debug-d37b5c5856c388615e63.json",
+					"name" : "CURL::libssh2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::nghttp2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__nghttp2-Debug-6215c2746cea98171bbd.json",
+					"name" : "CURL::nghttp2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::nghttp3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__nghttp3-Debug-67e0c47d93c6f5f7562e.json",
+					"name" : "CURL::nghttp3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::ngtcp2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__ngtcp2-Debug-ce5d02b57edd0e8a2495.json",
+					"name" : "CURL::ngtcp2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::win32_winsock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__win32_winsock-Debug-b6f492b55763200c84a6.json",
+					"name" : "CURL::win32_winsock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::zstd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__zstd-Debug-b14bd3e0e264f9796e4f.json",
+					"name" : "CURL::zstd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-Debug-e4ae292ae8a9e7ed99eb.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-Debug-5cdf4e9908df6e67af00.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenSSL::Crypto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenSSL__Crypto-Debug-0b60c83e1ac167b69acf.json",
+					"name" : "OpenSSL::Crypto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenSSL::SSL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenSSL__SSL-Debug-5981755c72f7f6329b22.json",
+					"name" : "OpenSSL::SSL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenSSL::applink::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenSSL__applink-Debug-cd9e8fd49281e96d5769.json",
+					"name" : "OpenSSL::applink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-Debug-9fb0959c8ae387af9a96.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZLIB::ZLIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZLIB__ZLIB-Debug-6981c34466af026a027e.json",
+					"name" : "ZLIB::ZLIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxadv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxadv-Debug-446eed7f6b9e1c7b1ad5.json",
+					"name" : "wx::wxadv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxaui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxaui-Debug-569239e505e65931bd87.json",
+					"name" : "wx::wxaui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxbase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxbase-Debug-658afeb4cf8d4b803047.json",
+					"name" : "wx::wxbase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxbase_only::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxbase_only-Debug-0167e202e57317dc83ff.json",
+					"name" : "wx::wxbase_only",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxcore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxcore-Debug-8b06f95a528f4bbde3bc.json",
+					"name" : "wx::wxcore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxgl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxgl-Debug-0a8f54ad46e1c35a5ca2.json",
+					"name" : "wx::wxgl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxhtml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxhtml-Debug-53bb9b031bfea0774c9a.json",
+					"name" : "wx::wxhtml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxmedia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxmedia-Debug-22a27ffa7ca404d2e0e9.json",
+					"name" : "wx::wxmedia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxnet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxnet-Debug-dd3cf1c673e78510d567.json",
+					"name" : "wx::wxnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxpropgrid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxpropgrid-Debug-36cb99ec8f3e37a0c141.json",
+					"name" : "wx::wxpropgrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxqa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxqa-Debug-26f7649d257800b3bbc7.json",
+					"name" : "wx::wxqa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxribbon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxribbon-Debug-282ce223315127574390.json",
+					"name" : "wx::wxribbon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxrichtext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxrichtext-Debug-05e551783c38c08e1e45.json",
+					"name" : "wx::wxrichtext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxstc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxstc-Debug-1a7812f77b3f265d51f2.json",
+					"name" : "wx::wxstc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxwebview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxwebview-Debug-1f833eab2a26129a422a.json",
+					"name" : "wx::wxwebview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxxml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxxml-Debug-859182c5fab6402320bc.json",
+					"name" : "wx::wxxml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx::wxxrc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx__wxxrc-Debug-50b1b6649d189a1b11e3.json",
+					"name" : "wx::wxxrc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wxWidgets::wxWidgets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wxWidgets__wxWidgets-Debug-d786836d9910958888c9.json",
+					"name" : "wxWidgets::wxWidgets",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CCTool",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CCTool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CCTool-Debug-a1dfbee03205fb2e7696.json",
+					"name" : "CCTool",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/github/CCTool/build",
+		"source" : "C:/github/CCTool"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

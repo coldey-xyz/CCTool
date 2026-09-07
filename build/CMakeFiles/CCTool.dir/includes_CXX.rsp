@@ -1,0 +1,1 @@
+-IC:/github/CCTool/third_party -isystem "C:/msys64/mingw64/lib/wx/include/msw-unicode-3.2" -isystem "C:/msys64/mingw64/include/wx-3.2"
