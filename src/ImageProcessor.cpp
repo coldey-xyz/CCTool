@@ -1,4 +1,5 @@
 #include "ImageProcessor.h"
+#include <algorithm>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
@@ -41,12 +42,12 @@ namespace ImageProcessor {
         }
         // scale
         double scale = qualityPercent / 100.0;
-        int newW = wxMax(1, (int)(origW * scale));
-        int newH = wxMax(1, (int)(origH * scale));
+        int newW = std::max(1, (int)(origW * scale));
+        int newH = std::max(1, (int)(origH * scale));
         unsigned char* resizedPixels = pixels;
         if (qualityPercent < 100) {
             resizedPixels = (unsigned char*)malloc((size_t)newW * newH * 3);
-            void* ok = stbir_resize_untint8_srgb(pixels, origW, origH, 0, resizedPixels, newW, newH, 0, STBIR_RGB);
+            void* ok = stbir_resize_uint8_srgb(pixels, origW, origH, 0, resizedPixels, newW, newH, 0, STBIR_RGB);
             if (!ok) {
                 stbi_image_free(pixels);
                 free(resizedPixels);
@@ -67,7 +68,7 @@ namespace ImageProcessor {
         if (!outFile) {
             stbi_image_free(pixels);
             if (resizedPixels != pixels) free(resizedPixels);
-            result.errorMessage = "couldn't create output file"
+            result.errorMessage = "couldn't create output file";
             return result;
         }
         int writeOK = 0;
@@ -75,7 +76,7 @@ namespace ImageProcessor {
             writeOK = stbi_write_png_to_func(WriteCallback, outFile, newW, newH, 3, resizedPixels, newW * 3);
         }
         else if (outputExtension == "jpeg") {
-            int jpgQuality = wxMax(1, wxMin(100, qualityPercent));
+            int jpgQuality = std::max(1, std::min(100, qualityPercent));
             writeOK = stbi_write_jpg_to_func(WriteCallback, outFile, newW, newH, 3, resizedPixels, jpgQuality);
         }
         else if (outputExtension == "bmp") {
@@ -86,14 +87,14 @@ namespace ImageProcessor {
         }
         fclose(outFile);
         stbi_image_free(pixels);
-        if (resizedPixels != pixels) free(resizedPixels)
+        if (resizedPixels != pixels) free(resizedPixels);
 
         if (!writeOK) {
-            result.errorMessage = "image encoding failed"
+            result.errorMessage = "image encoding failed";
             return result;
         }
         result.success = true;
-        result.outputPath = outputPath
+        result.outputPath = outputPath;
         return result;
     }
 }

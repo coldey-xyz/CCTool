@@ -670,4 +670,5 @@ CMakeFiles/CCTool.dir/src/MainFrame.cpp.obj: \
  C:/msys64/mingw64/include/wx-3.2/wx/filedlg.h \
  C:/msys64/mingw64/include/wx-3.2/wx/msw/filedlg.h \
  C:/msys64/mingw64/include/wx-3.2/wx/mdi.h \
- C:/msys64/mingw64/include/wx-3.2/wx/msw/mdi.h
+ C:/msys64/mingw64/include/wx-3.2/wx/msw/mdi.h \
+ C:\github\CCTool\src\ImageProcessor.h

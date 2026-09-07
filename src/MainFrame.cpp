@@ -90,7 +90,7 @@ void MainFrame::OnCompress(wxCommandEvent& event) {
     m_busybutton = 0;
     SetStatusText("compressing...");
     int quality = m_resolutionSlider->GetValue();
-    wxString format = m_formatChoice->GetStringSelection();
+    wxString extension = kFormatExtensions[m_formatChoice->GetSelection()];
 
     // now to actually compressing
     ImageProcessor::CompressResult result = ImageProcessor::Compress(m_inputFilePath, m_outputDir, quality, extension);
