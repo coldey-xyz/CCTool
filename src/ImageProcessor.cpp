@@ -29,7 +29,7 @@ namespace ImageProcessor {
         CompressResult result;
         FILE* inFile = OpenFileForBinaryIO(inputPath, "rb");
         if (!inFile) {
-            result.errorMessage = "couldn't open input file";
+            result.errorMessage = wxString::Format("couldn't read input file: %s", stbi_failure_reason());
             return result;
         }
         int origW, origH, origChannels;
